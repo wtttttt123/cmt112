@@ -142,63 +142,7 @@ section.coverpic{
 
 
 
-@media (max-width: 600px) {
-	.box{
-		display:block;
-		width: 100%;
-		margin-left:0;
-		margin-right: 0;	
-	}
-	.content{
-		flex-direction: column;
-	}
 
-    .container{
-		flex-direction: column;
-		flex-wrap: nowrap;
-	}
-    .item{
-    	width: 100%;
-    }
-
-    .icon{
-    	display: none;
-    }
-
-
-
-    nav a{  
-        display: block;
-        width:30%;
-    	margin-left:10px;
-    	margin-right: 10px;
-    }	
-    
-
-
-    #buy{
-    	display: block;
-    	margin:0;
-    	width:100%;
-    	
-    }
-    .aaa{
-    	width:100%;
-    }
-    .bbb{
-    	width:100%;
-    } 
-    
-    .des-arch, .arch{
-    	width:100%;
-    	display: block;
-    }
-    .col-1{
-    	width:100%;
-    	display: block;
-    }
-
-}
 
 footer{
 	clear: both;
@@ -212,7 +156,7 @@ footer{
 	margin-bottom: 20px;
 	margin-right:20px;
 	margin-left:15px;
-	height:300px;
+	height:40vh;
 
 }
 .des-arch{
@@ -280,5 +224,66 @@ color:white;
 
 #a-home{
 	position: relative;
-	left:1130px;
+	left:90vw;
+}
+
+
+
+
+@media (max-width: 600px) {
+	.box{
+		display:block;
+		width: 100%;
+		margin-left:0;
+		margin-right: 0;	
+	}
+	.content{
+		flex-direction: column;
+	}
+
+    .container{
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+    .item{
+    	width: 100%;
+    }
+
+    .icon{
+    	display: none;
+    }
+
+    nav a{  
+        display: block;
+        width:30%;
+    	margin-left:10px;
+    	margin-right: 10px;
+    }	 
+
+    #buy{
+    	display: block;
+    	margin:0;
+    	width:100%;
+    	
+    }
+    .aaa{
+    	width:100%;
+    }
+    .bbb{
+    	width:100%;
+    } 
+    
+    .des-arch, .arch{
+    	width:100%;
+    	display: block;
+    	margin: 0;
+    }
+    .col-1{
+    	width:100%;
+    	display: block;
+    }
+    .design{
+    	margin-top: 5vh;
+    }
+
 }
