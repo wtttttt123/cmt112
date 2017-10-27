@@ -114,7 +114,7 @@ section.coverpic{
 .icon{
    
 	width: 20vw;
-	align-content: flex-end;
+	align-self: center;
 }	
 
 .bbb{
@@ -130,12 +130,6 @@ section.coverpic{
 	padding: 20px;
 	border-bottom:3px solid white;
 }
-
-footer{
-	clear: both;
-
-}
-
 
 .arch{
 	float: left;
@@ -173,39 +167,69 @@ footer{
 	float:left;
 }*/
 
-
-
-.aaa:hover,.bbb:hover {
-color:white;
-}
-
-
-.container{
-	display: flex;
-	border:1px dashed red;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	/*align-content: space-around;*/
-	width: 50vw;
-
-}
-.item{
-	border:1px solid blue;
-	flex-grow:1;	
-}
-
-.item-2{
-	border:1px solid blue;
-	flex-grow: 2;
-}
-.item,.item-2 img{
-	width: 100%;
-}
-
 #a-home{
 	position:relative;
 	left:70vw;
 }
+
+
+.aaa:hover,.bbb:hover {
+color: #abc;
+}
+
+
+
+.wrap{
+  display: flex;
+  width: 100%;
+  border-spacing:.5em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  
+
+.whole {
+  position: relative;
+  width: 48%;
+  /*border: 2px dashed red;*/
+  margin-bottom: 20px;
+  text-align: top;
+}
+
+.iimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+
+
+.whole:hover .overlay {
+  opacity: .5;
+}
+
+
+.container:after{ 
+	content: "."; 
+     display: block; 
+     height: 0; 
+     clear: both; 
+     visibility: hidden;
+}
+
 
 
 
@@ -217,10 +241,6 @@ color:white;
 	#intro{
 		font-size: .8em;
 	}
-
-
-
-
 }
 
 
@@ -275,7 +295,7 @@ color:white;
     	width:100%;
     } 
     
-     .arch{
+    .arch{
     	width:100%;
     	height: 55vh;
     	display: block;
