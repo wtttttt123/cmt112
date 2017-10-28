@@ -49,13 +49,10 @@ nav a:hover{
 	color: #f48341;
 }
 
-
-
 #buy{
     display:none;
     background-color: white;
     color: black;
-
 }
 
 section.coverpic{
@@ -74,17 +71,8 @@ section.coverpic{
 	margin-bottom: 0;
 }	
 
-
 .coverpic img{
 	width:100%;
-	
-}
-
-.top{
-	background-color: #de4843;
-	position:fixed;
-	bottom:0;
-	right:20px;
 }
 
 .box img{
@@ -109,6 +97,7 @@ section.coverpic{
 
 .aaa{
 	width: 30vw;
+	align-self: center;
 }
 
 .icon{
@@ -117,11 +106,12 @@ section.coverpic{
 	align-self: center;
 }	
 
-.bbb{
-	width: 30vw;
-	
+.top{
+	background-color: #de4843;
+	position:fixed;
+	bottom:0;
+	right:20px;
 }
-
 .join{
 	text-decoration: none;
 	margin-top:30px;
@@ -137,7 +127,7 @@ section.coverpic{
 	margin-bottom: 20px;
 	margin-right:20px;
 	margin-left:15px;
-	height:40vh;
+	height:45vh;
 
 }
 .des-arch{
@@ -162,22 +152,14 @@ section.coverpic{
      visibility: hidden;
 }
 
-/*.album .col-1{
-	width:15%;
-	float:left;
-}*/
-
 #a-home{
 	position:relative;
 	left:70vw;
 }
 
-
-.aaa:hover,.bbb:hover {
+.aaa:hover{
 color: #abc;
 }
-
-
 
 .wrap{
   display: flex;
@@ -190,7 +172,6 @@ color: #abc;
 .whole {
   position: relative;
   width: 48%;
-  /*border: 2px dashed red;*/
   margin-bottom: 20px;
   text-align: top;
 }
@@ -263,13 +244,12 @@ color: #abc;
 		display:block;
 		width: 80%;
 		margin-left:0;
-		margin-right: 0;	
+		margin-right: 0;
 	}
 	.content{
 		flex-direction: column;
 	}
     
-
     .container{
 		flex-direction: column;
 		flex-wrap: nowrap;
