@@ -92,7 +92,6 @@ section.coverpic{
 	display: flex;
 	border-top:3px solid white;
 	justify-content: space-between;
-
 }	
 
 .aaa{
@@ -112,13 +111,19 @@ section.coverpic{
 	bottom:0;
 	right:20px;
 }
+
 .join{
-	text-decoration: none;
+	
 	margin-top:30px;
 	margin-bottom: 50px;
 	border-top:3px solid white;
 	padding: 20px;
 	border-bottom:3px solid white;
+}
+
+.send{
+	text-decoration: none;
+	color: #f48341;
 }
 
 .arch{
@@ -128,13 +133,12 @@ section.coverpic{
 	margin-right:20px;
 	margin-left:15px;
 	height:45vh;
-
 }
+
 .des-arch{
 	float:right;
 	width:40%;
 	margin:auto;
-
 }
 
 .design:after {
