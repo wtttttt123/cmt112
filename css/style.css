@@ -3,7 +3,7 @@ body{
 	box-sizing: border-box;
 	background-color: black;
 	padding: 20px;
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Lato";
 	color: white;
 }
 
@@ -33,7 +33,6 @@ header:after{
      clear: both; 
      visibility: hidden;
 }
-
 
 nav a{
 	color: white;
@@ -100,6 +99,10 @@ section.coverpic{
 	align-self: center;
 }
 
+.aaa:hover{
+color: #abc;
+}
+
 .icon{
    
 	width: 20vw;
@@ -127,6 +130,7 @@ section.coverpic{
 	color: #f48341;
 }
 
+/*design.html*/
 .arch{
 	float: left;
 	width:40%;
@@ -162,10 +166,7 @@ section.coverpic{
 	left:70vw;
 }
 
-.aaa:hover{
-color: #abc;
-}
-
+/*system.html*/
 .wrap{
   display: flex;
   width: 100%;
@@ -213,7 +214,6 @@ color: #abc;
   opacity: .5;
 }
 
-
 .container:after{ 
 	content: "."; 
      display: block; 
@@ -221,8 +221,6 @@ color: #abc;
      clear: both; 
      visibility: hidden;
 }
-
-
 
 
 @media (max-width: 668px){
@@ -234,10 +232,6 @@ color: #abc;
 		font-size: .8em;
 	}
 }
-
-
-
-
 
 @media (max-width: 643px) {
 	.coverpic{
